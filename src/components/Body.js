@@ -4,6 +4,7 @@ import Login from './Login';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const Body = () => {
+  // const navigate = useNavigate(); // cannot use effiectly since router is described here.
 
   const appRouter = createBrowserRouter([
     {
@@ -16,6 +17,7 @@ const Body = () => {
     }
 
   ])
+
 
   return (
     <div>
